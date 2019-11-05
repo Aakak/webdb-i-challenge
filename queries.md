@@ -13,7 +13,7 @@ The order with date 1997-02-12 should be at the top.
 
 ## Find all customers that live in London, Madrid, or Brazil
 
---- select * from Customers where city = 'London' or city = 'Madrid' or city ='Brazil';
+--- select * from Customers where city = 'London' or city = 'Madrid' or Country ='Brazil';
 
 ## Add a customer record for "The Shire", the contact name is "Bilbo Baggins" the address is -"1 Hobbit-Hole" in "Bag End", postal code "111" and the country is "Middle Earth"
 
